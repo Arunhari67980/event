@@ -1,0 +1,32 @@
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-image: url('tech.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Optional: gives a nice parallax effect */
+  background-repeat: no-repeat;
+}
+
+/* Navbar */
+.navbar {
+  background: linear-gradient(135deg, #4e54c8, #8f94fb);
+
+}
+
+/* Hero Section */
+.hero {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  min-height: 100vh; /* Important Change */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+/* Footer */
+footer {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  font-size: 15px;
+}
